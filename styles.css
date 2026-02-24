@@ -1,13 +1,15 @@
-.gallery{
-	display:flex;
-	flex-wrap:wrap;
-	justify-content:center;
+/* Container for the cards */
+.cards {
+    display: flex;              /* Use flexbox layout */
+    flex-wrap: wrap;           /* Allow items to wrap to the next line */
+    justify-content: center;    /* Center the items horizontally */
 }
 
-.gallery img {
-	margin:10px;
-	border:3px solid #000;
-	box-shadow:3px 3px 8px 0px rgb(0, 0, 0.3);
-	max-width:25vw;
-	height:auto;
+/* Style for each image */
+.cards img {
+    margin: 10px;              /* Margin around each image */
+    border: 3px solid #000;    /* Black border */
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3); /* Box shadow */
+    max-width: 25vw;           /* Maximum width of each image */
+    height: auto;              /* Maintain aspect ratio */
 }
